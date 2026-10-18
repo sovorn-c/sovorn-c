@@ -1,28 +1,14 @@
-### Hi, I'm Sovorn 👋
+### Sovorn Chea
 
-I build auditable AI systems: agents and RAG that reconcile messy data, cite their evidence, and keep a human in the loop.
+Applied AI engineer building AI systems that keep their evidence and stop when the data isn't good enough. Incoming PhD at AUT, Auckland.
 
-Applied AI Engineer · M.E. Computer Science (Hunan University) · Incoming PhD, AUT (clinical AI, agent memory)
+**NZ vehicle risk system**, three repos, one pipeline:
+- [nz-vehicle-data-pipeline](https://github.com/sovorn-c/nz-vehicle-data-pipeline): reconciles conflicting sources into auditable records; conflicts kept, never silently resolved
+- [vehicle-mcp-server](https://github.com/sovorn-c/vehicle-mcp-server): read-only MCP layer returning provenance and confidence, not just values
+- [vehicle-risk-agent](https://github.com/sovorn-c/vehicle-risk-agent): LangGraph workflow with hybrid RAG that abstains, deterministic scoring, human sign-off
 
-#### Flagship: NZ vehicle intelligence, one system in three repos
+**Deployed research**: [FLASS](https://github.com/sovorn-c/FLASS), container attribute spotting at Ningbo Zhoushan Port. 96.29% accuracy, 32.71 FPS. *IEEE TIM*, 2025.
 
-[nz-vehicle-data-pipeline](https://github.com/sovorn-c/nz-vehicle-data-pipeline) → [vehicle-mcp-server](https://github.com/sovorn-c/vehicle-mcp-server) → [vehicle-risk-agent](https://github.com/sovorn-c/vehicle-risk-agent)
+**Also**: agent memory ([pi-observational-memory](https://github.com/sovorn-c/pi-observational-memory), [pi-session-memory](https://github.com/sovorn-c/pi-session-memory)) · clinical AI ([clinical-documentation-assistant](https://github.com/sovorn-c/clinical-documentation-assistant), [clinical-guideline-rag](https://github.com/sovorn-c/clinical-guideline-rag))
 
-- **Pipeline:** reconciles conflicting multi-source vehicle records into canonical, auditable records with provenance
-- **MCP server:** read-only tool boundary exposing values, conflicts, confidence, and revision history
-- **Agent:** LangGraph decision workflow with policy RAG, reproducible scoring, and human approval
-
-#### Also
-
-- **Clinical AI:** [clinical-documentation-assistant](https://github.com/sovorn-c/clinical-documentation-assistant) · [ai-ambient-scribe](https://github.com/sovorn-c/ai-ambient-scribe) · [clinical-guideline-rag](https://github.com/sovorn-c/clinical-guideline-rag) · [fhir-clinical-summarizer](https://github.com/sovorn-c/fhir-clinical-summarizer) · [phi-deidentifier](https://github.com/sovorn-c/phi-deidentifier) · [auto-medical-coder](https://github.com/sovorn-c/auto-medical-coder)
-- **Agent memory & context engineering:** [pi-observational-memory](https://github.com/sovorn-c/pi-observational-memory) · [claude-observational-memory](https://github.com/sovorn-c/claude-observational-memory) · [codex-observational-memory](https://github.com/sovorn-c/codex-observational-memory) · [pi-ketch](https://github.com/sovorn-c/pi-ketch)
-
-#### Research
-
-**FLASS: Fast and Lightweight Automatic Shipping Container Attributes Spotting.** *IEEE Transactions on Instrumentation and Measurement*, 2025. [Paper](https://doi.org/10.1109/tim.2025.3573765) · [Code](https://github.com/sovorn-c/FLASS)
-
-#### Stack
-
-Python · FastAPI · LangGraph · MCP · PostgreSQL/pgvector · Docker · TypeScript · PyTorch
-
-[LinkedIn](https://www.linkedin.com/in/sovorn-c/) · cheasovorn4@gmail.com
+Python · LangGraph · MCP · PostgreSQL/pgvector · FastAPI · Docker · [LinkedIn](https://www.linkedin.com/in/sovorn-c/)
