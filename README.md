@@ -9,6 +9,6 @@ Applied AI engineer building AI systems that keep their evidence and stop when t
 
 **Deployed research**: [FLASS](https://github.com/sovorn-c/FLASS), container attribute spotting at Ningbo Zhoushan Port. 96.29% accuracy, 32.71 FPS. *IEEE TIM*, 2025.
 
-**Also**: agent memory ([pi-observational-memory](https://github.com/sovorn-c/pi-observational-memory), [pi-session-memory](https://github.com/sovorn-c/pi-session-memory)) · clinical AI ([clinical-documentation-assistant](https://github.com/sovorn-c/clinical-documentation-assistant), [clinical-guideline-rag](https://github.com/sovorn-c/clinical-guideline-rag))
+**Also**: session memory for the Pi coding agent ([pi-session-memory](https://github.com/sovorn-c/pi-session-memory)) · clinical AI ([clinical-documentation-assistant](https://github.com/sovorn-c/clinical-documentation-assistant), [clinical-guideline-rag](https://github.com/sovorn-c/clinical-guideline-rag))
 
 Python · LangGraph · MCP · PostgreSQL/pgvector · FastAPI · Docker · [LinkedIn](https://www.linkedin.com/in/sovorn-c/)
