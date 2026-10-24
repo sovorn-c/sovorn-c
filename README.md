@@ -1,14 +1,27 @@
-### Sovorn Chea
+## Sovorn Chea
 
-Applied AI engineer building AI systems that keep their evidence and stop when the data isn't good enough. Incoming PhD at AUT, Auckland.
+I build AI systems with traceable evidence, explicit uncertainty and human review.
 
-**NZ vehicle risk system**, three repos, one pipeline:
-- [nz-vehicle-data-pipeline](https://github.com/sovorn-c/nz-vehicle-data-pipeline): reconciles conflicting sources into auditable records; conflicts kept, never silently resolved
-- [vehicle-mcp-server](https://github.com/sovorn-c/vehicle-mcp-server): read-only MCP layer returning provenance and confidence, not just values
-- [vehicle-risk-agent](https://github.com/sovorn-c/vehicle-risk-agent): LangGraph workflow with hybrid RAG that abstains, deterministic scoring, human sign-off
+Based in Cambodia; incoming PhD at AUT, Auckland.
 
-**Deployed research**: [FLASS](https://github.com/sovorn-c/FLASS), container attribute spotting at Ningbo Zhoushan Port. 96.29% accuracy, 32.71 FPS. *IEEE TIM*, 2025.
+### Vehicle intelligence
 
-**Also**: session memory for the Pi coding agent ([pi-session-memory](https://github.com/sovorn-c/pi-session-memory)) · clinical AI ([clinical-documentation-assistant](https://github.com/sovorn-c/clinical-documentation-assistant), [clinical-guideline-rag](https://github.com/sovorn-c/clinical-guideline-rag))
+Three services covering data integration through to reviewed decisions:
 
-Python · LangGraph · MCP · PostgreSQL/pgvector · FastAPI · Docker · [LinkedIn](https://www.linkedin.com/in/sovorn-c/)
+- **[Data pipeline](https://github.com/sovorn-c/nz-vehicle-data-pipeline)** — reconciles conflicting records while preserving provenance and revision history.
+- **[MCP server](https://github.com/sovorn-c/vehicle-mcp-server)** — exposes that evidence through typed, read-only tools.
+- **[Risk agent](https://github.com/sovorn-c/vehicle-risk-agent)** — combines policy retrieval, deterministic scoring and human approval.
+
+Reference implementations using public evidence and synthetic fixtures.
+
+[Explore the architecture](https://github.com/sovorn-c/vehicle-risk-agent#architecture) · [Inspect the retrieval evaluation](https://github.com/sovorn-c/vehicle-risk-agent#policy-retrieval-pipeline-check)
+
+### Other work
+
+- **[omp-om](https://github.com/sovorn-c/omp-om)** — observational memory for omp, with background memory workers, ledger-based compaction and source recall. Adapted from Pi observational memory.
+- **[Clinical documentation assistant](https://github.com/sovorn-c/clinical-documentation-assistant)** — consultation-to-record demo with clinician approval and an audit trail. Synthetic data only.
+- **[FLASS](https://github.com/sovorn-c/FLASS)** — co-authored shipping-container recognition research, published in IEEE TIM, 2025.
+
+Python · TypeScript · FastAPI · PostgreSQL/pgvector · LangGraph · MCP · Docker
+
+[LinkedIn](https://www.linkedin.com/in/sovorn-c/)
